@@ -1,0 +1,30 @@
+.Pagination {
+    padding: 1rem;
+    background-color: #ccc;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+
+
+    span {
+        min-width: 1em;
+        padding: 0.5rem;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+        border-radius: 50%;
+        cursor: pointer;
+
+        &:hover {
+            box-shadow: 0px 0px 6px 2px #e4e4e4;
+        }
+    }
+
+    select {
+        border: none;
+        border-radius: 4px;
+        padding: 0.25rem;
+    }
+}

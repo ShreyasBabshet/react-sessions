@@ -1,0 +1,18 @@
+.Comment {
+    // background-color: rgb(215, 215, 215);
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border: thin solid #efefef;
+    display: flex;
+    flex-direction: column;
+
+    .Body {
+        margin: 0;
+    }
+
+    .Email {
+        margin: 0;
+        align-self: flex-end;
+        color: blue;
+    }
+}

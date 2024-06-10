@@ -1,0 +1,9 @@
+.Button__Primary {
+    --primary: blue;
+    --secondary: white;
+}
+
+.Button__Secondary {
+    --primary: red;
+    --secondary: white;
+}
